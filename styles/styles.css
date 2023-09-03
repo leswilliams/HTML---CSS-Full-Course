@@ -4,16 +4,21 @@ p {
   margin-bottom: 0;
 }
 
-.video-preview {
-  display: inline-block;
-  width: 300px;
-  vertical-align: top;
-  margin-right: 15px;
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .thumbnail {
-  display: block;
-    width: 300px;
+  width: 100%;
 }
 
 .search-bar {
@@ -26,16 +31,6 @@ p {
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 12px;
-}
-
-.channel-picture {
-  display: inline-block;
-  vertical-align: top;
-  width: 50px;
-}
-.video-info {
-  display: inline-block;
-  width: 200px;
 }
 
 .profile-picture {
