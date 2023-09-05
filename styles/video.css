@@ -15,6 +15,14 @@
   width: 100%;
 }
 
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .video-title {
   margin-top: 0;
   font-size: 14px;
@@ -30,6 +38,20 @@
 
 .thumbnail-row {
   margin-bottom: 10px;
+  position: relative;
+}
+
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
 }
 
 .video-author,
